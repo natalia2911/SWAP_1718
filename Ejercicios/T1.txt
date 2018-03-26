@@ -1,1 +1,24 @@
-Ejercicio T1:  Buscar información sobre las tareas o servicios web para los que se usan más los programas que comentamos al principio de la sesión.APACHE es el Servidor Web más utilizado, líder con el mayor número de instalaciones a nivel mundial muy por delante de otras soluciones como el IIS (Internet Information Server) de Microsoft. Apache es un proyecto de código abierto y uso gratuito,multiplataforma (hay versiones para todos los sistemas operativos más importantes), muy robusto y que destaca por su seguridad y  rendimiento.NGINX es ahora el nuevo número dos de servidores Web, en gran parte porque es una alternativa rápida, ligera y de código abierto a Apache. Se caracteriza por un rendimiento muy alto, sirve al mayor número de clientes posible al mismo tiempo y que, además,  consume la menor cantidad de recursos.THTTPD es un servidor web de código libre disponible para la mayoría de las variantes de Unix. Se caracteriza por ser simple, pequeño, portátil, rápido, y seguro, ya que utiliza los requerimientos mínimos de un servidor HTTP.CHEROKEE es uno de los servidores de nueva generación llamados ligeros que mejora notablemente el rendimiento ofrecido por el más usado Apache HTTPD soportando más usuarios concurrentes, aceptando más peticiones por segundo y consumiendomenos memoria. Quizá no tenga toda la versatilidad de un servidor Apache HTTPD pero para la mayoría de los escenarios es más que suficiente.
+Ejercicio T1:  Buscar informaci√≥n sobre las tareas o servicios web para los que se usan 
+m√°s los programas que comentamos al principio de la sesi√≥n.
+
+APACHE es el Servidor Web m√°s utilizado, l‚Äôder con el mayor n√∫mero de instalaciones 
+a nivel mundial muy por delante de otras soluciones como el IIS (Internet Information 
+Server) de Microsoft. Apache es un proyecto de c√≥digo abierto y uso gratuito,
+multiplataforma (hay versiones para todos los sistemas operativos m√°s importantes), 
+muy robusto y que destaca por su seguridad y  rendimiento.
+
+NGINX es ahora el nuevo n≈ìmero dos de servidores Web, en gran parte porque es una 
+alternativa r√°pida, ligera y de c√≥digo abierto a Apache. Se caracteriza por un 
+rendimiento muy alto, sirve al mayor n≈ìmero de clientes posible al mismo tiempo y 
+que, adem√°s,  consume la menor cantidad de recursos.
+
+THTTPD es un servidor web de c√≥digo libre disponible para la mayor√≠a de las variantes 
+de Unix. Se caracteriza por ser simple, peque√±o, port√≥til, r√°pido, y seguro, ya que 
+utiliza los requerimientos m√≠nimos de un servidor HTTP.
+
+CHEROKEE es uno de los servidores de nueva generaci√≥n llamados ligeros que mejora 
+notablemente el rendimiento ofrecido por el m√°s usado Apache HTTPD soportando 
+m√°s usuarios concurrentes, aceptando m√°s peticiones por segundo y consumiendo
+menos memoria. Quiz√° no tenga toda la versatilidad de un servidor Apache HTTPD 
+pero para la mayor√≠a de los escenarios es m√°s que suficiente.
+
