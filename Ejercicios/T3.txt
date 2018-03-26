@@ -34,7 +34,8 @@ En administrador del servidor, seleccionamos
 - Comando route
 - Para versiones Server podemos incluir el Servicio de enrutamiento y acceso  remoto
 
-Ejercicio T3.2: Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el filtrado y bloqueo de paquetes.
+Ejercicio T3.2: Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el
+filtrado y bloqueo de paquetes.
 
 La principal orden en Linux es iptables, que permite incluir reglas para dejar pasar o  bloquear paquetes.
 En Windows, con el propio Firewall, a través de su interfaz podemos administrar funciones simples de su comportamiento.
