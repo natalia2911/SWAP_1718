@@ -19,11 +19,20 @@ Un framework es una estructura conceptual y tecnológica de asistencia definida,
 
 Normalmente, los frameworks de aplicación web además promueven la reutilización y conectividad de los componentes, así como la reutilización de código, y la implementación de bibliotecas para el acceso a base de datos.
 
-1. El más conocido patrón de diseño de aplicaciones web es la arquitectura Model-View-Controller (MVC: Modelo-Vista-Controlador). Un Modelo es un objeto que representa datos o incluso una actividad en forma de tabla en base de datos. Una Vista es algún tipo de visualización del estado del modelo, y un Controlador ofrece funciones (herramientas) para cambiar el estado del modelo.
+1. El más conocido patrón de diseño de aplicaciones web es la arquitectura Model-View-Controller (MVC: Modelo-Vista-Controlador).
+Un Modelo es un objeto que representa datos o incluso una actividad en forma de tabla en base de datos. Una Vista es algún tipo 
+de visualización del estado del modelo, y un Controlador ofrece funciones (herramientas) 
+para cambiar el estado del modelo.
 
-2. Django es un framework de desarrollo web de código abierto, escrito en Python, que respeta el patrón de diseño conocido como Modelo–vista–controlador. Fue desarrollado en origen para gestionar varias páginas orientadas a noticias de la World Company de Lawrence, Kansas, y fue liberada al público bajo una licencia BSD en julio de 2005;
+2. Django es un framework de desarrollo web de código abierto, escrito en Python, que respeta el patrón de diseño conocido como 
+Modelo–vista–controlador. Fue desarrollado en origen para gestionar varias páginas orientadas a noticias de la World Company de 
+Lawrence, Kansas, y fue liberada al público bajo una licencia BSD en julio de 2005;
 
-3. Lenguaje SQL (por sus siglas en inglés Structured Query Language; en español lenguaje de consulta estructurada) es un lenguaje específico del dominio que da acceso a un sistema de gestión de bases de datos relacionales que permite especificar diversos tipos de operaciones en ellos. Una de sus características es el manejo del álgebra y el cálculo relacional que permiten efectuar consultas con el fin de recuperar, de forma sencilla, información de bases de datos, así como hacer cambios en ellas.
+3. Lenguaje SQL (por sus siglas en inglés Structured Query Language; en español lenguaje de consulta estructurada) es un 
+lenguaje específico del dominio que da acceso a un sistema de gestión de bases de datos relacionales que permite especificar 
+diversos tipos de operaciones en ellos. Una de sus características es el manejo del álgebra y el cálculo relacional que 
+permiten efectuar consultas con el fin de recuperar, de forma sencilla, información de bases de datos, así como hacer cambios 
+en ellas.
 
 4. Microsoft Operations Framework (MOF) para conseguir alta disponibilidad en productos y tecnologías de Microsoft 
 5. IBM High Availability Cluster Multiprocessing está orientado a correr en clusters con SO AIX Unix e IBM System p (Sistemas Operativos creados por IBM) y conseguir un cluster de multiprocesamiento de alta disponibilidad.
@@ -33,13 +42,20 @@ Normalmente, los frameworks de aplicación web además promueven la reutilizaci�
 
 Top permite conocer en tiempo real la actividad del procesador, así como la lista con los procesos que hacen un mayor uso de la CPU.
 
-Gnome-System-Monitor : El Monitor del sistema GNOME muestra información básica y le permite monitorizar sus procesos del sistema, recursos y uso del sistema de archivos
+Gnome-System-Monitor : El Monitor del sistema GNOME muestra información básica y le permite monitorizar sus procesos del 
+sistema, recursos y uso del sistema de archivos
 
 Munin : Es una herramienta multiplataforma basada en web, utilizada en el monitoreo de los recursos en red. Está diseñada para ser plug and play. Su arquitectura es bastante sencilla: un servidor que centraliza los datos enviados por los agentes instalados en cada cliente.
 
-Nagios: Nagios es un sistema de monitorización de redes ampliamente utilizado, de código abierto, que vigila los equipos (hardware) y servicios (software) que se especifiquen, alertando cuando el comportamiento de los mismos no sea el deseado. Entre sus características principales figuran la monitorización de servicios de red (SMTP, POP3, HTTP, SNMP...), la monitorización de los recursos de sistemas hardware (carga del procesador, uso de los discos, memoria, estado de los puertos...), independencia de sistemas operativos, posibilidad de monitorización remota mediante túneles SSL cifrados o SSH, y la posibilidad de programar plugins específicos para nuevos sistemas.
+Nagios: Nagios es un sistema de monitorización de redes ampliamente utilizado, de código abierto, que vigila los equipos 
+(hardware) y servicios (software) que se especifiquen, alertando cuando el comportamiento de los mismos no sea el deseado. 
+Entre sus características principales figuran la monitorización de servicios de red (SMTP, POP3, HTTP, SNMP...), la 
+monitorización de los recursos de sistemas hardware (carga del procesador, uso de los discos, memoria, estado de los 
+puertos...), independencia de sistemas operativos, posibilidad de monitorización remota mediante túneles SSL cifrados o SSH, y 
+la posibilidad de programar plugins específicos para nuevos sistemas.
 
-Zabbix: Zabbix es un Sistema de Monitorización de Redes creado por Alexei Vladishev. Está diseñado para monitorizar y registrar el estado de varios servicios de red, Servidores, y hardware de red.
+Zabbix: Zabbix es un Sistema de Monitorización de Redes creado por Alexei Vladishev. Está diseñado para monitorizar y registrar
+el estado de varios servicios de red, Servidores, y hardware de red.
 
 
 - Ejercicio T2.4:
@@ -48,7 +64,10 @@ b. Buscar productos comerciales para servidores de aplicaciones.
 c. Buscar productos comerciales para servidores de almacenamiento.
 
 a. 
-Un Balanceador de carga fundamentalmente es un dispositivo de hardware o software que se pone al frente de un conjunto de servidores que atienden una aplicación y, tal como su nombre lo indica, asigna o balancea las solicitudes que llegan de los clientes a los servidores usando algún algoritmo (desde un simple round-robin hasta algoritmos más sofisticados).
+Un Balanceador de carga fundamentalmente es un dispositivo de hardware o software que se pone al frente de un conjunto de 
+servidores que atienden una aplicación y, tal como su nombre lo indica, asigna o balancea las solicitudes que llegan de los 
+clientes a los servidores usando algún algoritmo (desde un simple round-robin hasta algoritmos más sofisticados).
+
 Los balanceadores de carga software más conocidos son : 
 	- HAProxy : utiliza técnicas de arquitecturas de SO para ofrecer un gran rendimiento, puede verse como una 		solución de emergencia o de respaldo a los balanceadores hardware.
 	- Nginx : es un servidor web/proxy inverso ligero de alto rendimiento y un proxy para protocolos de correo 				electrónico (IMAP/POP3)
