@@ -12,14 +12,18 @@ ISP : 99.75 + (1-99.75) * 95 = 99.9875
 Total : 99.2085%
 
 - Ejercicio T2.2: 
-Buscar frameworks y librerías para diferentes lenguajes que permitan hacer aplicaciones altamente disponibles con relativa facilidad.
+Buscar frameworks y librerías para diferentes lenguajes que permitan hacer aplicaciones altamente disponibles con relativa 
+facilidad.
 Como ejemplo, examina PM2 : https://github.com/Unitech/pm2 que sirve para administrar clústeres de NodeJS.
 
-Un framework es una estructura conceptual y tecnológica de asistencia definida, normalmente, con artefactos o módulos concretos de software, que puede servir de base para la organización y desarrollo de software.
+Un framework es una estructura conceptual y tecnológica de asistencia definida, normalmente, con artefactos o módulos concretos 
+de software, que puede servir de base para la organización y desarrollo de software.
 
-Normalmente, los frameworks de aplicación web además promueven la reutilización y conectividad de los componentes, así como la reutilización de código, y la implementación de bibliotecas para el acceso a base de datos.
+Normalmente, los frameworks de aplicación web además promueven la reutilización y conectividad de los componentes, así como la
+reutilización de código, y la implementación de bibliotecas para el acceso a base de datos.
 
-1. El más conocido patrón de diseño de aplicaciones web es la arquitectura Model-View-Controller (MVC: Modelo-Vista-Controlador).
+1. El más conocido patrón de diseño de aplicaciones web es la arquitectura Model-View-Controller (MVC: Modelo-Vista-
+Controlador).
 Un Modelo es un objeto que representa datos o incluso una actividad en forma de tabla en base de datos. Una Vista es algún tipo 
 de visualización del estado del modelo, y un Controlador ofrece funciones (herramientas) 
 para cambiar el estado del modelo.
@@ -35,17 +39,21 @@ permiten efectuar consultas con el fin de recuperar, de forma sencilla, informac
 en ellas.
 
 4. Microsoft Operations Framework (MOF) para conseguir alta disponibilidad en productos y tecnologías de Microsoft 
-5. IBM High Availability Cluster Multiprocessing está orientado a correr en clusters con SO AIX Unix e IBM System p (Sistemas Operativos creados por IBM) y conseguir un cluster de multiprocesamiento de alta disponibilidad.
+5. IBM High Availability Cluster Multiprocessing está orientado a correr en clusters con SO AIX Unix e IBM System p (Sistemas
+Operativos creados por IBM) y conseguir un cluster de multiprocesamiento de alta disponibilidad.
 
 - Ejercicio T2.3:
-¿Cómo analizar el nivel de carga de cada uno de los subsistemas en el servidor? Buscar herramientas y aprender a usarlas ...¡o recordar cómo usarlas!
+¿Cómo analizar el nivel de carga de cada uno de los subsistemas en el servidor? Buscar herramientas y aprender a usarlas ...¡o
+recordar cómo usarlas!
 
 Top permite conocer en tiempo real la actividad del procesador, así como la lista con los procesos que hacen un mayor uso de la CPU.
 
 Gnome-System-Monitor : El Monitor del sistema GNOME muestra información básica y le permite monitorizar sus procesos del 
 sistema, recursos y uso del sistema de archivos
 
-Munin : Es una herramienta multiplataforma basada en web, utilizada en el monitoreo de los recursos en red. Está diseñada para ser plug and play. Su arquitectura es bastante sencilla: un servidor que centraliza los datos enviados por los agentes instalados en cada cliente.
+Munin : Es una herramienta multiplataforma basada en web, utilizada en el monitoreo de los recursos en red. Está diseñada para
+ser plug and play. Su arquitectura es bastante sencilla: un servidor que centraliza los datos enviados por los agentes 
+instalados en cada cliente.
 
 Nagios: Nagios es un sistema de monitorización de redes ampliamente utilizado, de código abierto, que vigila los equipos 
 (hardware) y servicios (software) que se especifiquen, alertando cuando el comportamiento de los mismos no sea el deseado. 
@@ -54,8 +62,8 @@ monitorización de los recursos de sistemas hardware (carga del procesador, uso 
 puertos...), independencia de sistemas operativos, posibilidad de monitorización remota mediante túneles SSL cifrados o SSH, y 
 la posibilidad de programar plugins específicos para nuevos sistemas.
 
-Zabbix: Zabbix es un Sistema de Monitorización de Redes creado por Alexei Vladishev. Está diseñado para monitorizar y registrar
-el estado de varios servicios de red, Servidores, y hardware de red.
+Zabbix: Zabbix es un Sistema de Monitorización de Redes creado por Alexei Vladishev. Está diseñado para monitorizar y 
+registrar el estado de varios servicios de red, Servidores, y hardware de red.
 
 
 - Ejercicio T2.4:
@@ -69,8 +77,10 @@ servidores que atienden una aplicación y, tal como su nombre lo indica, asigna 
 clientes a los servidores usando algún algoritmo (desde un simple round-robin hasta algoritmos más sofisticados).
 
 Los balanceadores de carga software más conocidos son : 
-	- HAProxy : utiliza técnicas de arquitecturas de SO para ofrecer un gran rendimiento, puede verse como una 		solución de emergencia o de respaldo a los balanceadores hardware.
-	- Nginx : es un servidor web/proxy inverso ligero de alto rendimiento y un proxy para protocolos de correo 				electrónico (IMAP/POP3)
+	- HAProxy : utiliza técnicas de arquitecturas de SO para ofrecer un gran rendimiento, puede verse como una 
+	solución de emergencia o de respaldo a los balanceadores hardware.
+	- Nginx : es un servidor web/proxy inverso ligero de alto rendimiento y un proxy para protocolos de correo 
+	electrónico (IMAP/POP3)
 
 Los balanceadores de carga hardware más conocidos son :
 	- AppDirector OnDemand de la compañía Radware
