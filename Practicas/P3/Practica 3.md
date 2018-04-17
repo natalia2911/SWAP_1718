@@ -27,7 +27,9 @@ En el caso de que tengamos que tengamos instalado apache deberemos ponerlo en pa
   
 service apache2 stopTambién antes de la instalación se recomienda ejecutar:  
   
-sudo apt-get updatesudo apt-get dist-upgradesudo apt-get autoremove###**Objetivo 1: Configurar una máquina e instalarle el nginx como balanceador de carga**  
+sudo apt-get updatesudo apt-get dist-upgradesudo apt-get autoremove
+
+###**Objetivo 1: Configurar una máquina e instalarle el nginx como balanceador de carga**  
   
 Tenemos que instalar **Nginx** con  
   
