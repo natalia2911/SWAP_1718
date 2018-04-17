@@ -94,7 +94,7 @@ Creo un fichero llamado archivo.txt que guarde la salida de ab.
   
 (Esto lo tienes que hacer, primero de una maquina exterior a nginx, y luego desde la maquina exterior, a haproxy)  
   
-![](https://github.com/natalia2911/SWAP_1718/blob/master/Practicas/P3/Imagenes/3.7.png)  
+![](https://github.com/natalia2911/SWAP_1718/blob/master/Practicas/P3/Imagenes/3.7.PNG)  
   
   
 ![](https://github.com/natalia2911/SWAP_1718/blob/master/Practicas/P3/Imagenes/3.8.png)
