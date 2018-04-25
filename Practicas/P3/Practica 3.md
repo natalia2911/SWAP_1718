@@ -67,7 +67,7 @@ Por último reiniciamos el servicio:
   
 service nginx restarty desde una máquina externa y con la herramienta curl probamos que funcione bien:  
   
-![](https://github.com/natalia2911/SWAP_1718/blob/master/Practicas/P3/Imagenes/3.3.png)  
+![](https://github.com/natalia2911/SWAP_1718/blob/master/Practicas/P3/Imagenes/3.6.png)  
   
 Tenemos que tener en cuenta, que si cogemos las maquinas anteriores tenemos que dejar que 'swap2' deje de actualizar /var/www/ de 'swap1' (Como lo hicimos en prácticas anteriores con crontab, si seguimos usando esas máquinas, puede que esta opción la tengamos todavia activa)  
   
