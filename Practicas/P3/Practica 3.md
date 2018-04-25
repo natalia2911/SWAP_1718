@@ -1,5 +1,3 @@
-﻿
-![](https://www.correctorortografico.com/googiespell/blank.gif)Continuar escribiendo
 
 # Practica 3: Balanceo de carga  
   
