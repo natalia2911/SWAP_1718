@@ -92,7 +92,7 @@ Como podemos ver tenemos en ambas maquinas la misma base de datos, hemos realiza
 
 ## Objetivo 4: Realizar la cofiguracion maestro-esclavo de los servidores MySQL para que la replicacion de datos se realice automaticamente.
 
-Debemos de modificar el archivo /etc/mysql/mysql.conf.d/mysqld.confd de las dos maquinas, la esclava y la maestra.
+Debemos de modificar el archivo /etc/mysql/mysql.conf.d/mysqld.cnf de las dos maquinas, la esclava y la maestra.
 
 En la maestra tenemos que comentar la linea que pone
 
