@@ -91,8 +91,8 @@ Para no tener que introducir cada una de las ordenes, hacemos un script:
   	
  Ahora solo tenemos que decirle al sistema que lo ejecute cada vez que se inicie:
  
-     mv /home/ubuntus/scriptiptables.sh /etc/init.d/
-    update-rc.d scriptiptables.sh defaults
+     mv /home/ubuntus/script.sh /etc/init.d/
+    update-rc.d script.sh defaults
     
 ![](https://github.com/natalia2911/SWAP_1718/blob/master/Practicas/P4/Imagenes/P4.8.png) 
  
