@@ -130,4 +130,22 @@ para comprobar
 
 ![](https://github.com/natalia2911/SWAP_1718/blob/master/Practicas/P5/Imagenes/Foto5.17.png) 
 
-Ahora tenemos que modificar la maquina secundaria:
+Iniciamos el esclavo con :
+
+    start slave;
+
+Por último, volvemos al maestro y volvemos a activar las tablas para que puedan meterse nuevos datos en el maestro:
+
+    UNLOCK TABLES;
+
+Ahora, si queremos asegurarnos de que todo funciona perfectamente y que el esclavo no tiene ningún problema para replicar la información, nos vamos al esclavo y con la siguiente orden:
+
+    show slave status\g
+
+
+![](https://github.com/natalia2911/SWAP_1718/blob/master/Practicas/P5/Imagenes/Foto5.18.png) 
+
+El valor de tiene que ser 0, para indicar que todo va bien.
+
+Metemos nuevos datos en la base de datos del MAESTRO y comprobamos si se ha actualizado en el esclavo.
+
